@@ -1,26 +1,13 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+#LC
+This is a Life coach application. Which integrates with open sorce RESTful API
 
-## How to use this template
+## To use
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+* git (if on Windows, follow [these instructions](https://www.atlassian.com/git/tutorials/install-git/windows), if on Mac use homebrew)
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
+* [nodejs](https://nodejs.org/en/download/) (or `$ brew install node`)
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start mySideMenu sidemenu
-```
-
-Then, to run it, cd into `mySideMenu` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
+$ ionic serve
+$ Default browser will open with the application on default url : http://localhost:8100/
 
